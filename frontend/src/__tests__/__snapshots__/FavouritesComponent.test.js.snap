@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavouritesComponent renders correctly 1`] = `
+<main
+  className="container fluid text-center"
+>
+  <section
+    className="row justify-content-md-center mt-3 mb-3 gy-3"
+  >
+    <div
+      className="col-sm-6"
+    >
+      <div
+        className="card mb-3"
+        style={
+          Object {
+            "maxWidth": "540px",
+          }
+        }
+      >
+        <div
+          className="row g-0"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="media art image"
+              className="img-fluid rounded-start"
+              src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/4c/d4/ae4cd42a-80a9-d950-16f5-36f01a9e1881/source/100x100bb.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                <strong>
+                  Upside Down
+                </strong>
+                 by 
+                Jack Johnson
+              </h5>
+              <p
+                className="card-text"
+              >
+                Cost: $
+                1.29
+                 Dollars
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                Genre: 
+                Rock
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Kind: 
+                  song
+                </small>
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted small-like-tag"
+                  onClick={[Function]}
+                >
+                  Like
+                  <a
+                    className="nav-link like-icons"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-heart fa-w-16 font-awesome-icon-component"
+                      data-icon="heart"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style={Object {}}
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                        fill="currentColor"
+                        style={Object {}}
+                      />
+                    </svg>
+                  </a>
+                </small>
+              </p>
+              <p
+                className="card-text"
+              >
+                Description: 
+                 
+                Not available.
+                 
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                Long Description: 
+                Not available.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-6"
+    >
+      <div
+        className="card mb-3"
+        style={
+          Object {
+            "maxWidth": "540px",
+          }
+        }
+      >
+        <div
+          className="row g-0"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="media art image"
+              className="img-fluid rounded-start"
+              src="https://is1-ssl.mzstatic.com/image/thumb/Video125/v4/2a/0c/0e/2a0c0ef1-6026-4659-f5f0-8f1f9a0b5e8a/source/100x100bb.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                <strong>
+                  Jumanji: Welcome to the Jungle
+                </strong>
+                 by 
+                Jake Kasdan
+              </h5>
+              <p
+                className="card-text"
+              >
+                Cost: $
+                7.99
+                 Dollars
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                Genre: 
+                Action & Adventure
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Kind: 
+                  feature-movie
+                </small>
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted small-like-tag"
+                  onClick={[Function]}
+                >
+                  Like
+                  <a
+                    className="nav-link like-icons"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-heart fa-w-16 font-awesome-icon-component"
+                      data-icon="heart"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style={Object {}}
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                        fill="currentColor"
+                        style={Object {}}
+                      />
+                    </svg>
+                  </a>
+                </small>
+              </p>
+              <p
+                className="card-text"
+              >
+                Description: 
+                 
+                Four teenagers in detention discover an old video console with a game they’ve never heard of. When
+                 
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                Long Description: 
+                Four teenagers in detention discover an old video console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars (Dwayne Johnson, Jack Black, Kevin Hart, and Karen Gillan). They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-6"
+    >
+      <div
+        className="card mb-3"
+        style={
+          Object {
+            "maxWidth": "540px",
+          }
+        }
+      >
+        <div
+          className="row g-0"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="media art image"
+              className="img-fluid rounded-start"
+              src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/1f/2b/ae/1f2bae7f-62a1-1055-8471-401291b6dcdd/pr_source.lsr/100x100bb.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                <strong>
+                  Star Wars: The Force Awakens
+                </strong>
+                 by 
+                J.J. Abrams
+              </h5>
+              <p
+                className="card-text"
+              >
+                Cost: $
+                7.99
+                 Dollars
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                Genre: 
+                Action & Adventure
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Kind: 
+                  feature-movie
+                </small>
+              </p>
+              <span>
+                 | 
+              </span>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted small-like-tag"
+                  onClick={[Function]}
+                >
+                  Like
+                  <a
+                    className="nav-link like-icons"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-heart fa-w-16 font-awesome-icon-component"
+                      data-icon="heart"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style={Object {}}
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                        fill="currentColor"
+                        style={Object {}}
+                      />
+                    </svg>
+                  </a>
+                </small>
+              </p>
+              <p
+                className="card-text"
+              >
+                Description: 
+                 
+                Lucasfilm and visionary director J.J. Abrams join forces to take you back again to a galaxy far, far
+                 
+              </p>
+              <br />
+              <p
+                className="card-text"
+              >
+                Long Description: 
+                Visionary director J.J. Abrams brings to life the motion picture event of a generation. As Kylo Ren and the sinister First Order rise from the ashes of the Empire, Luke Skywalker is missing when the galaxy needs him most. It's up to Rey, a desert scavenger, and Finn, a defecting stormtrooper, to join forces with Han Solo and Chewbacca in a desperate search for the one hope of restoring peace to the galaxy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;
