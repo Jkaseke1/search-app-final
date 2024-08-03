@@ -1,57 +1,99 @@
+
 # Search App Beta
 
-Firstly React app was created using
-`npx create-react-app`
+## Description
+The Search App Beta is a web application that allows users to search for various types of media using the iTunes Search API. Users can search for movies, podcasts, music, audiobooks, short films, TV shows, software, ebooks, and more. The application provides an attractive and user-friendly interface with the ability to add and remove items from a favourites list.
 
-Then the following dependences where imported
+## Purpose
+The main purpose of this application is to provide users with a seamless experience to search and explore different types of media content available on iTunes. It also demonstrates the integration of a React front-end with a Node.js and Express back-end, along with secure API communication using JWT.
 
-- Bootstrap - `npm i --save boosts`
-- Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+## Key Features
+- **User-Friendly Interface**: Built with React components for an interactive and responsive user experience.
+- **Search Functionality**: Allows users to enter a search term and select the type of media they want to search for.
+- **Favourites List**: Users can add and remove items from their favourites list.
+- **Attractive Results Display**: All output results are displayed in an attractive and organized manner.
+- **Secure API**: Uses JWT to authorize API requests and secure the API.
 
-- Popper - `npm i @popperjs/core`
-- Build your own floating UI components with React. From simple tooltips to select menus, you have full control while ensuring **fully accessible** UI experiences.
+## Installation and Running the Application Locally
 
-- React Bootstrap - `npm i --save react-booststrap`
+### Prerequisites
+- Node.js (v22.4.1 or higher)
+- npm (v10.8.1 or higher)
 
-- fortawesome - `npm i --save fortawsome/free-solid-svg-icons`  `npm i --save fortawsome/free-brands-svg-icons` `npm i --save fortawsome/free-regular-svg-icons`
-- ******Build and manage icons and typefaces in a single place, then serve them with a single line of code.
-- font-awesome `npm i --save fortawsome/react-fontawsome`
-- Font Awesome is a font and icon toolkit based on CSS
+### Steps to Install and Run
 
-- axios `npm i --save axios`
-- ***Axios*** is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase) On the server-side it uses the native node.js `http` module, while on the client (browser) it uses XMLHttpRequests.
+1. **Clone the repository**:
+    bash
+    git clone https://github.com/Jkaseke1/search-app-beta.git
+    cd search-app-beta
+    
 
-- React Router Dom - `npm i --save react-router-dom`
-- ***React Router*** is a standard library for routing in React. It enables the navigation among views of various components in a React Application
-- React Test Renderer - `npm i --save react-test-renderer`
-- This package provides an experimental React renderer that can be used to render React components to pure JavaScript objects
+2. **Install backend dependencies**:
+    bash
+    npm install
+    
 
-- jest-watch-typeahead - `npm i jest-watch-typehead`
-- Jest plugin for filtering by filename or test name
+3. **Install frontend dependencies**:
+    bash
+    cd frontend
+    npm install
+    cd ..
+    
 
-- 
+4. **Run the application**:
+    bash
+    npm run dev
+    
 
-## **Backend**
+5. **Access the application**:
+    Open your browser and navigate to `http://localhost:3000`.
 
-- It is located in the root of this repository.
+## Deployment
+The application is deployed on Render and can be accessed using the following URL:
+[Search App Beta on Render](https://search-app-beta-final.onrender.com/)
 
-- Helmetjs is used to secure this web application. I changed the script-src and img-src content security policy directives to allow usage of my custom javascript modules and to rendering of images received by the external 3rd party API.
-- Cors
-- ***CORS*** is a node.js package for providing a Connect/Express middleware that can be used to enable ***CORS*** with various options
-- Chai
-- ***Chai*** is a BDD(behavior-driven development) / TDD(test-driven development) assertion library for ***node*** and the browser that can be delightfully paired with any javascript testing framework
-- Mocha
-- Simple, flexible, fun. ***Mocha*** is a feature-rich JavaScript ***test*** framework running on ***Node***.***js*** and in the browser, making asynchronous testing simple and fun
+## Backend
+The backend of this application is built with Node.js and Express. It serves the React front-end and handles API requests to the iTunes Search API. Below are some of the key dependencies used:
 
-**Dependencies**
+- **Helmet.js**: Used to secure the web application by setting various HTTP headers.
+- **CORS**: Middleware to enable Cross-Origin Resource Sharing.
+- **Chai**: BDD/TDD assertion library for testing.
+- **Mocha**: JavaScript test framework for Node.js and the browser.
 
+### Backend Dependencies
 - Node `npm i --save init`
 - Express `npm i --save express`
 - Nodemon `npm i --save nodemon`
 - Helmet `npm i --save helmet`
-- axios`npm i --save axios`
-- chai `npm i --save-dev chai`
-- mocha`npm i --save-dev mocha`
+- Axios `npm i --save axios`
+- Chai `npm i --save-dev chai`
+- Mocha `npm i --save-dev mocha`
 
-# search-app-final
-itunes Search API
+## Frontend
+The frontend of this application is built with React. Below are some of the key dependencies used:
+
+- **Bootstrap**: CSS framework for responsive, mobile-first front-end web development.
+- **Popper.js**: Library for managing poppers in web applications.
+- **React Bootstrap**: Bootstrap components built with React.
+- **Font Awesome**: Icon toolkit based on CSS.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **React Router Dom**: Standard library for routing in React applications.
+- **React Test Renderer**: Experimental React renderer for rendering components to JavaScript objects.
+- **Jest Watch Typeahead**: Jest plugin for filtering by filename or test name.
+
+### Frontend Dependencies
+- Bootstrap `npm i --save bootstrap`
+- Popper.js `npm i @popperjs/core`
+- React Bootstrap `npm i --save react-bootstrap`
+- Font Awesome `npm i --save @fortawesome/fontawesome-free`
+- Axios `npm i --save axios`
+- React Router Dom `npm i --save react-router-dom`
+- React Test Renderer `npm i --save react-test-renderer`
+- Jest Watch Typeahead `npm i jest-watch-typeahead`
+
+## iTunes Search API
+Please consult the official documentation of the iTunes Search API: [iTunes Search API Overview](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) to learn more about the iTunes Search API.
+
+## License
+This project is licensed under the MIT License.
+

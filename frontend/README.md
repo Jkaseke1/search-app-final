@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Search App Beta
 
-## Available Scripts
+## Description
+The Search App Beta is a web application that allows users to search for various types of media using the iTunes Search API. Users can search for movies, podcasts, music, audiobooks, short films, TV shows, software, ebooks, and more. The application provides an attractive and user-friendly interface with the ability to add and remove items from a favourites list.
 
-In the project directory, you can run:
+## Purpose
+The main purpose of this application is to provide users with a seamless experience to search and explore different types of media content available on iTunes. It also demonstrates the integration of a React front-end with a Node.js and Express back-end, along with secure API communication using JWT.
 
-### `npm start`
+## Key Features
+- **User-Friendly Interface**: Built with React components for an interactive and responsive user experience.
+- **Search Functionality**: Allows users to enter a search term and select the type of media they want to search for.
+- **Favourites List**: Users can add and remove items from their favourites list.
+- **Attractive Results Display**: All output results are displayed in an attractive and organized manner.
+- **Secure API**: Uses JWT to authorize API requests and secure the API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Running the Application Locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (v22.4.1 or higher)
+- npm (v10.8.1 or higher)
 
-### `npm test`
+### Steps to Install and Run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    bash
+    git clone https://github.com/Jkaseke1/search-app-beta.git
+    cd search-app-beta
+    
 
-### `npm run build`
+2. **Install backend dependencies**:
+    bash
+    npm install
+    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install frontend dependencies**:
+    bash
+    cd frontend
+    npm install
+    cd ..
+    
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Run the application**:
+    bash
+    npm run dev
+    
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Access the application**:
+    Open your browser and navigate to `http://localhost:3000`.
 
-### `npm run eject`
+## Deployment
+The application is deployed on Render and can be accessed using the following URL:
+[Search App Beta on Render](https://search-app-beta-final.onrender.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Backend
+The backend of this application is built with Node.js and Express. It serves the React front-end and handles API requests to the iTunes Search API. Below are some of the key dependencies used:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Helmet.js**: Used to secure the web application by setting various HTTP headers.
+- **CORS**: Middleware to enable Cross-Origin Resource Sharing.
+- **Chai**: BDD/TDD assertion library for testing.
+- **Mocha**: JavaScript test framework for Node.js and the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend Dependencies
+- Node `npm i --save init`
+- Express `npm i --save express`
+- Nodemon `npm i --save nodemon`
+- Helmet `npm i --save helmet`
+- Axios `npm i --save axios`
+- Chai `npm i --save-dev chai`
+- Mocha `npm i --save-dev mocha`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Frontend
+The frontend of this application is built with React. Below are some of the key dependencies used:
 
-## Learn More
+- **Bootstrap**: CSS framework for responsive, mobile-first front-end web development.
+- **Popper.js**: Library for managing poppers in web applications.
+- **React Bootstrap**: Bootstrap components built with React.
+- **Font Awesome**: Icon toolkit based on CSS.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **React Router Dom**: Standard library for routing in React applications.
+- **React Test Renderer**: Experimental React renderer for rendering components to JavaScript objects.
+- **Jest Watch Typeahead**: Jest plugin for filtering by filename or test name.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend Dependencies
+- Bootstrap `npm i --save bootstrap`
+- Popper.js `npm i @popperjs/core`
+- React Bootstrap `npm i --save react-bootstrap`
+- Font Awesome `npm i --save @fortawesome/fontawesome-free`
+- Axios `npm i --save axios`
+- React Router Dom `npm i --save react-router-dom`
+- React Test Renderer `npm i --save react-test-renderer`
+- Jest Watch Typeahead `npm i jest-watch-typeahead`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## iTunes Search API
+Please consult the official documentation of the iTunes Search API: [iTunes Search API Overview](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) to learn more about the iTunes Search API.
 
-### Code Splitting
+## License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
