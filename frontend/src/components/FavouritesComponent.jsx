@@ -48,7 +48,14 @@ const FavouritesComponent = ({ favouritesProp, setFavouritesProp }) => {
                                             <br />
                                             <p className="card-text"><small className="text-muted">Kind: {dataPoint.kind}</small></p>
                                             <span> | </span>
-                                            <p className="card-text"><small className="text-muted small-like-tag" onClick={() => unlikeFunc(index)}>{dataPoint.likeStatus ? 'Unlike' : 'Like'}<a type="button" className="nav-link like-icons"><FontAwesomeIcon icon={faHeart} className="font-awesome-icon-component" /></a></small></p>
+                                            <p className="card-text">
+                                                <small className="text-muted small-like-tag" onClick={() => unlikeFunc(index)}>
+                                                    {dataPoint.likeStatus ? 'Unlike' : 'Like'}
+                                                    <button type="button" className="nav-link like-icons" style={{ background: 'none', border: 'none', padding: 0 }}>
+                                                        <FontAwesomeIcon icon={faHeart} className="font-awesome-icon-component" />
+                                                    </button>
+                                                </small>
+                                            </p>
                                             <p className="card-text">Description: {dataPoint.description ? dataPoint.description : null} {dataPoint.description === undefined && dataPoint.shortDescription ? dataPoint.shortDescription : "Not available."} </p>
                                             <br />
                                             <p className="card-text">Long Description: {dataPoint.longDescription ? dataPoint.longDescription : "Not available."}</p>
