@@ -1,5 +1,5 @@
+
 {
-  
   "name": "search-app-beta",
   "version": "1.0.0",
   "description": "The backend of an app that serves APIs w/ Music, Movies, Audiobooks and more.",
@@ -8,7 +8,7 @@
     "test": "mocha",
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "engines": {
     "node": "22.4.1",
@@ -16,11 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jkaseke1/search-app-beta"
+    "url": "git+https://github.com/Jkaseke1/search-app-final.git"
   },
   "author": "Joseph Kaseke",
   "license": "MIT",
-
   "dependencies": {
     "axios": "^1.7.2",
     "cors": "^2.8.5",
@@ -28,7 +27,7 @@
     "helmet": "^7.1.0",
     "nodemon": "^3.1.4"
   },
-  "homepage": "https://github.com/Jkaseke1/search-app-beta#readme",
+  "homepage": "https://github.com/Jkaseke1/search-app-final#readme",
   "devDependencies": {
     "chai": "^5.1.1",
     "mocha": "^10.7.0"
