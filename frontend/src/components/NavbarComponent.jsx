@@ -38,7 +38,7 @@ const NavbarComponent = () => {
                     </Link>
                     
                     {/* Github Repository Link Button */}
-                    <Nav.Link href="https://github.com/Jonamk458/Search-App-Beta" target="_blank" id="nav-link-class"><FontAwesomeIcon icon={faGithub} className="font-awesome-icons" id="github-icon"/>&nbsp;GitHub</Nav.Link>
+                    <Nav.Link href="https://github.com/Jkaseke1/search-app-final.git" target="_blank" id="nav-link-class"><FontAwesomeIcon icon={faGithub} className="font-awesome-icons" id="github-icon"/>&nbsp;GitHub</Nav.Link>
                   </ul>
                 </Nav>
               </Row>
