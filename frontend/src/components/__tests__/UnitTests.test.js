@@ -1,17 +1,17 @@
-describe('Frontend Unit tests', () => {
-  it('Modify typed Input test', () => {
+describe("Frontend Unit tests", () => {
+  it("Modify typed Input test", () => {
     const modifyTypedInput = (typedInput) => {
       const arrFromInput = [];
-      typedInput.split('').map(arrItem => {
-        if(arrItem === ' ') arrItem = '+';
+      typedInput.split("").map((arrItem) => {
+        if (arrItem === " ") arrItem = "+";
         arrFromInput.push(arrItem);
-      })
-      return arrFromInput.join('');
+      });
+      return arrFromInput.join("");
     };
-    expect(modifyTypedInput('jack johnson')).toBe('jack+johnson');
+    expect(modifyTypedInput("jack johnson")).toBe("jack+johnson");
   });
 
-  it('Unlike function test', () => {
+  it("Unlike function test", () => {
     const unlikeFunc = (dataIndex) => {
       let favouritesArr = [
         {
@@ -25,9 +25,11 @@ describe('Frontend Unit tests', () => {
         {
           id: 3,
           title: "fugiat veniam minus",
-        }
+        },
       ];
-      return favouritesArr = favouritesArr.filter(favourite => favourite !== favouritesArr[dataIndex]);
+      return (favouritesArr = favouritesArr.filter(
+        (favourite) => favourite !== favouritesArr[dataIndex],
+      ));
     };
     expect(unlikeFunc(2)).toHaveLength(2);
   });

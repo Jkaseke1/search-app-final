@@ -1,21 +1,22 @@
-.card-body > .card-text, .card-body > .card-text > .text-muted > .like-icons{
+.card-body > .card-text,
+.card-body > .card-text > .text-muted > .like-icons {
   display: inline-block;
 }
-.like-icons{
+.like-icons {
   color: inherit;
 }
-.font-awesome-icon-component{
+.font-awesome-icon-component {
   color: #6c757d;
 }
-.like-icons:hover{
+.like-icons:hover {
   color: inherit;
 }
-#spinner-border{
+#spinner-border {
   border-top-color: #008075;
   border-bottom-color: #008075;
   border-left-color: #008075;
 }
-.small-like-tag{
+.small-like-tag {
   cursor: pointer;
 }
 /* 

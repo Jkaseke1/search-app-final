@@ -1,28 +1,28 @@
 /* Assigned all anchor tags the Edu AU VIC WA NT Hand font from Google fonts */
-a{
-  font-family: 'Edu AU VIC WA NT Hand', cursive;
+a {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 /* Assigned the Application's Name the Permanent Marker Google Font and white color */
-#brand-id{
-  font-family: 'Permanent Marker', cursive;
+#brand-id {
+  font-family: "Permanent Marker", cursive;
   color: #fff;
   text-decoration: none;
 }
 /* Applied the white color to the Application's name on hover. */
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: #fff;
 }
 /* Assigned a teal green color to the NavBar */
-.nav-class{
+.nav-class {
   background-color: #006655;
 }
 /* Assigned the white color to the responsive navbar toggler icon and it's border */
-#navbar-toggler{
+#navbar-toggler {
   color: #fff;
   border-color: #fff;
 }
 /* Replaced an icon in the inner span of the Navbar Toggler Icon and assigned color and other background styling to this span */
-#navbar-toggler > span{
+#navbar-toggler > span {
   color: #fff;
   background-image: url("../images/nav-icon.svg");
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ a{
   background-size: 100%;
 }
 /* Assigned a white color to all hyper links in the navbar */
-#nav-link-class{
+#nav-link-class {
   color: #fff;
   padding-top: 0;
   padding-bottom: 0;
@@ -49,7 +49,8 @@ a{
   font-size: 14px;
 } */
 /* Assigned a white color, width, text-alignment and font-size to the Plus icon and Github icon used in the two navbar buttons */
-#heart-icon, #github-icon{
+#heart-icon,
+#github-icon {
   color: #fff;
   width: 30px;
   text-align: right;

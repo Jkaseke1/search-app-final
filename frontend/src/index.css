@@ -3,4 +3,4 @@ I then use the normalize css to apply standardized browser CSS */
 @import-reset;
 @import-normalize;
 /* Fetch the Edu AU VIC WA NT Hand and permanent marker font */
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@700&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@700&family=Permanent+Marker&display=swap");
