@@ -1,3 +1,4 @@
+
 {
   "name": "search-app-beta",
   "version": "1.0.0",
@@ -10,7 +11,7 @@
     "build": "cd frontend && npm install && npm run build"
   },
   "engines": {
-    "node": "22.4.1",
+    "node": ">=22.4.1 <23.0.0",
     "npm": "10.8.1"
   },
   "repository": {
@@ -27,14 +28,16 @@
     "express": "^4.19.2",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "lru-cache": "^9.0.0"
   },
   "homepage": "https://github.com/Jkaseke1/search-app-final#readme",
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11",
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "glob": "^9.2.0"
   },
   "directories": {
     "test": "test"
